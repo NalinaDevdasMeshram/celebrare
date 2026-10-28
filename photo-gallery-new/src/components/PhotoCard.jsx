@@ -22,7 +22,7 @@ function PhotoCard({ photo, isFavorite, onToggleFavorite }) {
               : `Add ${photo.author} to favorites`
           }
           aria-pressed={isFavorite}
-          className={`shrink-0 text-2xl ${
+          className={`shrink-0 text-2xl  cursor-pointer ${
             isFavorite ? "text-red-500" : "text-gray-400"
           }`}
         >
