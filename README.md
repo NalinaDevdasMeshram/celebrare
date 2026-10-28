@@ -77,7 +77,7 @@ photo-gallery/
 1. Clone the repository:
 
    ```bash
-   git clone YOUR_GITHUB_REPOSITORY_URL
+   git clone https://github.com/NalinaDevdasMeshram/celebrare.git
    ```
 
 2. Navigate to the project directory:
@@ -120,4 +120,3 @@ Favourites are initialized from localStorage and saved whenever the favourites s
 
 - `useCallback` keeps the search handler's function reference stable between renders.
 - `useMemo` caches the filtered photo list until the photos or search query changes.
-
